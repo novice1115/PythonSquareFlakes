@@ -15,8 +15,6 @@
         Eg: person.get('employed', False)
 
 '''
-from hashlib import new
-
 
 person = {"name": "Sam",
          "age": 23,
@@ -31,7 +29,7 @@ print(person["name"])
 # 1.b
 person["name"] = "Darwin"
 person["age"] = 10
-print(f"{person['name']} will be {person['age']} years old in 2032 A.D.")
+print(f"{person['name']} will be {person['age']+11} years old in 2033 A.D.")
 
 # 1.c
 
